@@ -23,8 +23,6 @@ public class NutzerListController extends AbstractController {
 	public Collection<Nutzer> getNutzerlist() {
 		return nutzerlist;
 	}
-
-	
 	@PostConstruct
 	protected void postConstruct() {
 		getEntityManager().getTransaction().begin();
