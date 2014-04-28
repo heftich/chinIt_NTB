@@ -1,4 +1,4 @@
-package org.company;
+package ch.chinit.model;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;

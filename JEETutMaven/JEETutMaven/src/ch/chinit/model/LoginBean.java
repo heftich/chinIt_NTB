@@ -1,4 +1,4 @@
-package org.company;
+package ch.chinit.model;
 
 import java.util.logging.Logger;
 
