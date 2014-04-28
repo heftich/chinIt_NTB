@@ -30,7 +30,7 @@ public class NutzerListController extends AbstractController {
 				"SELECT n FROM Nutzer n", Nutzer.class);
 		nutzerlist = query.getResultList();
 		
-		logger.info("size of nutzerlist: "+nutzerlist.size());
+		logger.info("size of nutzerlist:  "+nutzerlist.size());
 		
 		getEntityManager().getTransaction().commit();
 	}
