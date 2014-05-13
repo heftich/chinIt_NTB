@@ -17,7 +17,7 @@ public class EntityManagerFactoryBean {
 	}
 
 	public EntityManagerFactoryBean(){
-		entityManagerFactory = Persistence.createEntityManagerFactory("webapp");
+		entityManagerFactory = Persistence.createEntityManagerFactory("heftich-persistence");
 	}
 
 	public EntityManager createEntityManager() {
@@ -28,5 +28,4 @@ public class EntityManagerFactoryBean {
     public void preDestroy() {
 		entityManagerFactory.close();
     }
-
 }
